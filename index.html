@@ -1,0 +1,406 @@
+<!doctype html>  
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		
+		
+				<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<script>
+			// If the query includes 'print-pdf' we'll use the PDF print sheet
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	
+	<body>
+		
+		<div class="reveal">
+
+			<!-- Used to fade in a background when a specific slide state is reached -->
+			<div class="state-background"></div>
+			
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+	<section>
+	<img src="media/logo.png" style="width: 300.0px;" class="noborder">
+	<div>
+		<br>
+		<h1 style="font-size: 5.0em;">s<span style="font-size: 0.7em;">umo</span>v<span style="font-size: 0.7em;">iz</span>3d</h1>
+	</div>
+	</section>
+	<section>
+	<div style="font-size: 1.5em;margin-top: 25.0%;line-height: 140.0%;">
+		Webbasierte&nbsp;3D-Postvisualisierung von Fußgängersimulationsdaten
+	</div>
+	</section>
+	<section>
+	<section>
+	<h1>Webbasiert </h1>
+	<img src="media/web.png" style="width: 400.0px"  class="noborder">
+	</section>
+	<section>
+	<h1>Webbasiert</h1>
+	<div>
+		<p>
+		</p>
+		<ul style="margin-top: 30.0px;line-height: 170.0%;">
+			<li>Plattformunabhängig</li>
+			<li>keine Installation notwendig</li>
+			<li>gemeinsame Datennutzung</li>
+			<li>einfache Weitergabe</li>
+			<li>einfaches Ausrollen von Updates</li>
+		</ul>
+		<p>
+		</p>
+	</div>
+	</section>
+	<section>
+	<h2>
+	<img src="media/html5.png" style="width: 420.0px;" class="noborder">
+	<br>
+	</h2>
+	</section>
+	<section>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<font face="courier new" style="font-size: 1.5em;">&lt;canvas&gt;&lt;/canvas&gt;</font>
+	</p>
+	</section>
+	<section>
+	<h1>canvas</h1>
+	<div>
+		<ul style="line-height: 170.0%;margin-top: 30.0px;">
+			<li>frei nutzbare Zeichenfläche</li>
+			<li>2D- oder 3D-Inhalte</li>
+			<li>Zeichnen via JavaScript</li>
+			<li>nicht bearbeitbar</li>
+			
+		</ul>
+	</div>
+	</section>
+	</section>
+	<section>
+	<section>
+	<h1>3D</h1>
+	<div>
+		<img src="media/logo.png" style="width: 400.0px;"  class="noborder">
+	</div>
+	</section>
+	<section>
+	<h1>
+	<img src="media/webgl.png" style="width: 400.0px;" class="noborder">
+	</h1>
+	<div>
+		<ul style="line-height: 180.0%;">
+			<li>
+			basierend auf OpenGL ES 2.0</li>
+			<li>hardwarebeschleunigt</li>
+			<li>3D-Grafik im canvas-Element<br>
+			</li>
+			<li>Bibliotheken mit Standard-Elementen<br>
+			</li>
+		</ul>
+	</div>
+	</section>
+	<section>
+	<h1>Rendering</h1>
+	<div>
+		<ol style="line-height: 170.0%;margin-top: 30.0px;">
+			<li>Anlegen der 3D-Modelle</li>
+			<li style="color: rgb(94,107,116);">
+			Vertex-Shader </li>
+			<li style="color: rgb(94,107,116);">
+			Rasterisierung </li>
+			<li style="color: rgb(94,107,116);">
+			Fragment-Shader </li>
+			<li style="color: rgb(94,107,116);">
+			Darstellung im canvas-Element</li>
+		</ol>
+	</div>
+	</section>
+	<section>
+	<h2>
+	<img src="media/mesh.png">
+	<br>
+	</h2>
+	</section>
+	<section>
+	<h1>Rendering</h1>
+	<div>
+		<ol style="line-height: 170.0%;margin-top: 30.0px;">
+			<li style="color: rgb(94,107,116);">Anlegen der 3D-Modelle</li>
+			<li style="color: rgb(94,107,116);">
+			Vertex-Shader </li>
+			<li>
+			Rasterisierung </li>
+			<li style="color: rgb(94,107,116);">
+			Fragment-Shader </li>
+			<li style="color: rgb(94,107,116);">
+			Darstellung im canvas-Element</li>
+		</ol>
+	</div>
+	</section>
+	<section>
+	<h2>
+	<img src="media/raster.jpg">
+	<br>
+	</h2>
+	</section>
+	<section>
+	<h1>Rendering</h1>
+	<div>
+		<ol style="line-height: 170.0%;margin-top: 30.0px;">
+			<li style="color: rgb(94,107,116);">Anlegen der 3D-Modelle</li>
+			<li style="color: rgb(94,107,116);" =""="">
+			Vertex-Shader </li>
+			<li style="color: rgb(94,107,116);">
+			Rasterisierung </li>
+			<li style="color: rgb(94,107,116);">
+			Fragment-Shader </li>
+			<li>
+			Darstellung im canvas-Element</li>
+		</ol>
+	</div>
+	</section>
+	</section>
+	<section>
+	<section>
+	<h1>Fußgängerdaten</h1>
+	<div>
+		<img src="media/pedestrian.png" style="width: 400.0px;" class="noborder">
+		<br>
+	</div>
+	</section>
+	<section>
+	<h1>Simulationsergebnis</h1>
+	<div>
+		<ul style="line-height: 170.0%;margin-top: 30.0px;">
+			<li>Textdateien (teilweise sehr groß)<br>
+			</li>
+			<li>enthalten Geometrie, Fußgänger, Gruppen</li>
+			<li>in Datenbank importiert</li>
+			<li>zu JavaScript-Objekten konvertiert</li>
+		</ul>
+	</div>
+	</section>
+	<section>
+	<h2>Geometrie</h2>
+	<pre style="background-color: rgb(255,255,255);"><font color="#000000">Polygon 18.96 42.27 19.95 42.09 19.92 o2 obstacle 1.0
+Polygon 33.82 41.00 34.85 41.00 34.85 o3 obstacle 1.0
+Polygon 18.00 49.90 18.19 44.20 wall0 wall 3.5
+Polygon 10.04 15.94 19.94 17.45 wall1 wall 3.5
+...</font></pre>
+	<br>
+	<h2>Fußgänger</h2>
+	<pre style="background-color: rgb(255,255,255);"><font color="#000000">1.04 0 40.23 40.05 0.00 0 0.16
+1.04 1 40.69 37.64 0.00 0 0.10
+1.04 2 40.92 36.44 0.00 0 0.06
+1.04 3 40.92 38.85 0.00 0 0.43
+1.04 4 40.69 35.24 0.00 0 0.01
+1.04 5 40.46 42.05 0.00 0 0.15
+2.08 0 38.61 39.65 0.00 0 0.60
+...</font></pre>
+	</section>
+	</section>
+	<section>
+	<section>
+	<div>
+		<br>
+	</div>
+	<div>
+		<br>
+	</div>
+	<div>
+		<br>
+	</div>
+	<div>
+		<br>
+	</div>
+	<div>
+		<img src="media/web.png" style="width: 200.0px;" class="noborder">
+		<img src="media/logo.png" style="width: 200.0px;" class="noborder">
+		<img src="media/pedestrian.png" style="width: 200.0px;" class="noborder">
+		<br>
+	</div>
+	</section>
+	<section>
+	<h1>
+	<img src="media/sumoviz.png">
+	</h1>
+	</section>
+	<section>
+	<h2>
+	<img src="media/sumoviz3d.jpg">
+	<br>
+	</h2>
+	</section>
+	<section>
+	<h1>Funktionen</h1>
+	<div>
+		<ul style="line-height: 170.0%;margin-top: 30.0px;">
+			<li>freie Navigation durch die 3D-Szene</li>
+			<li>Steuerung des Simulationsablaufs</li>
+			<li>Einfärben der Fußgänger</li>
+			<li>Anpassung der Elemente</li>
+		</ul>
+	</div>
+	</section>
+	<section>
+	<p>
+		<img  src="media/tecstack.png" class="noborder">
+		<br>
+	</p>
+	</section>
+	</section>
+	<section>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<h1>DEMO </h1>
+	</section>
+	<section>
+	<section>
+	<h1>Leistung</h1>
+	<div>
+		<br>
+	</div>
+	<div>
+		<br>
+	</div>
+	<div>
+		<ol style="line-height: 200.0%;font-size: 1.4em;">
+			<li>
+			Aktualisieren der Fußgänger </li>
+			<li>
+			Berechnen der 3D-Grafik</li>
+		</ol>
+	</div>
+	</section>
+	<section>
+	<h2>
+	<br>
+	</h2>
+	<h1>
+	<img src="media/sphere.png" style="width: 250.0px; margin-bottom: -70px;"  class="noborder">&nbsp; vs. &nbsp;<img src="media/model.png" style="margin-bottom: -150px;width: 200.0px;" class="noborder">
+	</h1>
+	</section>
+	<section>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<h1>2000 3d-Modelle<br>
+	10000 Kugeln</h1>
+	</section>
+	</section>
+	<section>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<p>
+		<br>
+	</p>
+	<h1>DEMO </h1>
+	</section>
+	<section>
+	<img src="media/logo.png" style="width: 300.0px;"  class="noborder">
+	<div>
+		<br>
+		<h1 style="font-size: 5.0em;">s<span style="font-size: 0.7em;">umo</span>v<span style="font-size: 0.7em;">iz</span>3d</h1>
+	</div>
+	</section>
+</div>
+			<!-- The navigational controls UI -->
+			<aside class="controls">
+				<a class="left" href="#">&#x25C4;</a>
+				<a class="right" href="#">&#x25BA;</a>
+				<a class="up" href="#">&#x25B2;</a>
+				<a class="down" href="#">&#x25BC;</a>
+			</aside>
+
+			<!-- Presentation progress bar -->
+			<div class="progress"><span></span></div>
+			
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				
+				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/linear(2d)
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/highlight.js', async: true, callback: function() { window.hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'lib/js/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/js/data-markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '/socket.io/socket.io.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+					{ src: 'plugin/speakernotes/client.js', async: true, condition: function() { return window.location.host === 'localhost:1947'; } },
+				]
+			});
+			
+		</script>
+
+	</body>
+</html>
